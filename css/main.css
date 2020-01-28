@@ -234,7 +234,7 @@ a, .student a, .menu-home a {
     color: black;
     text-decoration: none;
 }
-a:hover, #nav-home a:hover {
+a:hover, .menu-home a:hover {
     color: MediumSeaGreen;
     text-decoration: none;
     border-bottom: 1px dotted black;
