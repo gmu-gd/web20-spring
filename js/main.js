@@ -53,6 +53,6 @@ function menuSlide() {
 
 function clickableDiv() {
   $('.student').click(function() {
-    window.open($(this).find("a").attr("href"), '_blank');
+    window.open($(this).attr("data-href"), '_blank');
   });
 }
