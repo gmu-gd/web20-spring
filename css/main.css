@@ -163,6 +163,7 @@ header {
     border-right: none;
     text-align: center;
     transition: background-color 1s ease;
+    display: inline;
 }
 .student:hover {
     background-color: whitesmoke;
