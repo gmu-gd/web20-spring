@@ -305,7 +305,19 @@ li.heading {
 li.week {
   margin: 15px 0 0 0;
 }
-
+li.week strong {
+  font-size: 1rem;
+  color: black;
+  border-bottom: 2px solid MediumSeaGreen;
+}
+.li-bottompadding li {
+  padding-bottom: 5px;
+}
+.li-bottompadding .cat {
+  /* color: MediumSeaGreen; */
+  font-weight: bold;
+  letter-spacing: .02rem;
+}
 .bg-db {background-color: MediumSeaGreen;}
 .print-only {display: none;}
 ul.decorate {list-style-type: initial; padding-left: 20px;}
